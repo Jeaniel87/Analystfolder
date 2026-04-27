@@ -33,7 +33,7 @@ Questions to Answer
           -	Overall and category-level ratio (paid/billed amount)
           -	Overall spending by month.
    
-  - Apply Window Functions (RANK) to:
+   - Apply Window Functions (RANK) to:
          -	Rank the top cost-driving CPT codes and ICD diagnosis codes. 
          -	Rank the top cost-driving providers, members.
 

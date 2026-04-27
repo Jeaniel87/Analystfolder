@@ -43,9 +43,32 @@ Questions to Answer
 
 <img width="1498" height="866" alt="image" src="https://github.com/user-attachments/assets/1dfe18ca-41ad-4610-82b1-f4890a7d7fa3" />
 
+# Comments
 
+The KPI reflects that across the reporting period, providers billed a combined $2.06M, of which $1.55M (75%) was reimbursed by the healthcare insurer. 
+ The 25% denial rate (~$515K) highlights an opportunity to investigate claim rejections and optimize reimbursement performance.
 
+Inpatient (1,09M) , Emergency (294k) , Outpatient (129k), pharmacy (11.3k), lab (23.4k) Inpatient dominates at $1.09M it represent 70% of all insurance payouts.
+This is expected as hospital admissions involve  room costs, nursing care, extending days making them the most resource intensive claim type.
+Emergency comes second - 249k(19%) reflects unplanned visits. While individule ER visits are expensive, their share suggests 
+a meaningful portion of members seeking care reactively rather than through preventive or schedule channels.
+Finally, Outpatient lab and Pharmacy are minimal around (11%) these likely reflect either low utilization or strong cost controls.
 
+Among the top 10 billed procedures CPT codes 67890 ($242K) and 23456 ($203K) are the top two cost drivers, collectively accounting for 46% of total insurance payouts across the top 10 CPT codes. 
+Together, they represent $445K in reimbursements signaling that nearly half of high-volume procedure costs are concentrated in just two billing codes.
 
+Diagnosis codes I10 ($259K) and A12.3 ($152K) emerge as the leading cost drivers among the top 10 ICD codes, contributing a combined $411K — representing 43% of total insurance payouts. 
+Their disproportionate share of reimbursements signals that these two conditions alone are placing significant financial weight on the insurer's payout.
 
+The top 5 members account for a combined $181K of the insurance expenses. 
+Leading the group, Member 6 ($43K) and Member 32 ($40K) alone contribute $83K, or roughly 26% of the top 10 total payout.
+This level of spend concentration is a strong indicator that a small subset of members is driving a disproportionate share of healthcare costs.
+
+the month over month analysis of total paids amount demonstrates significant volatility in healthcare expenditures with several periods of sharp increases and declines. 
+High variability across the 12-month period indicating an inconsistent cost pattern rather than a steady trend.
+xpenditures appear to be driven episodic high cost events rather than uniform claim activity.
+
+# conclusion
+
+The disproportionate spend profile observed in CPT codes (67890, 23456) ICD codes (I10, A12.3) and patient account (6,32) suggests a need for deeper utilization review, payer specific reimbursement analyis and proactive audit for these key cost drivers for better cost containment.
 

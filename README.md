@@ -37,3 +37,15 @@ Questions to Answer
          -	Rank the top cost-driving CPT codes and ICD diagnosis codes. 
          -	Rank the top cost-driving providers, members.
 
+
+
+# Results 
+
+<img width="1498" height="866" alt="image" src="https://github.com/user-attachments/assets/1dfe18ca-41ad-4610-82b1-f4890a7d7fa3" />
+
+
+
+
+
+
+

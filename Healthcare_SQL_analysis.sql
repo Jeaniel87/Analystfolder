@@ -23,9 +23,9 @@ count(*) from members
 group by member_id, member_age, member_gender, plan_type , enrollment_start_date, enrollment_end_date
 having count(*) > 1
 
---No duplicate record found in both table merge the table to create a master table
+--No duplicate record found.
 
---- create a master table for Analysis
+--- Create a master table by merging the two datasets.
 
 select 
 t.claim_id, 
@@ -74,7 +74,7 @@ from claim_members
 where billed_amount > 0
  
 
--- Rank claim type from most expensive to the least expensive 
+-- Rank claim type from the most expensive to the least expensive 
 
 select 
 claim_type,

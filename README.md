@@ -22,19 +22,18 @@ Questions to Answer
 
 - How do billed amounts compare to paid amounts?
 
-
 # Analytical Objectives
 
 1. Exploratory Data Analysis (EDA) & Data Preparation
- 	Audit both datasets for quality issues (Duplicate records)
- 	Merge the claims and demographics datasets into a unified master Dataset.
-
+ 	- Audit both datasets for quality issues (Duplicate records)
+  - Merge the claims and demographics datasets into a unified master Dataset.
+    
 2. Business Metrics & KPI Development
    •	Run SQL aggregations (SUM, AVG, COUNT) to compute core financial KPIs, including:
-          	Total billed vs. total paid amounts
-          	Overall and category-level ratio (paid/billed amount)
-          	Overall spending by month 
+         	- Total billed vs. total paid amounts
+          -	Overall and category-level ratio (paid/billed amount)
+          -	Overall spending by month 
   •	 Apply Window Functions (RANK) to:
-         	Rank the top cost-driving CPT codes and ICD diagnosis codes. 
-         	Rank the top cost-driving providers, members.
+         -	Rank the top cost-driving CPT codes and ICD diagnosis codes. 
+         -	Rank the top cost-driving providers, members.
 

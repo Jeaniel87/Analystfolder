@@ -78,7 +78,7 @@ The disproportionate spend profile observed in CPT codes (67890;23456) ICD codes
 - Tableau
 
 # Autor 
-Junior Jean Daniel Bosso
+Junior Jean Daniel Bosso (Data Scientist)
 https://www.linkedin.com/in/juniorbosso
 
 

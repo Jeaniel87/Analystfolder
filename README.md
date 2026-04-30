@@ -29,19 +29,19 @@ Questions to Answer
     
 2. Business Metrics & KPI Development
    - Run SQL aggregations (SUM, AVG, COUNT) to compute core financial KPIs, including:
-         	- Total billed vs. total paid amounts
-          -	Overall and category-level ratio (paid/billed amount)
-          -	Overall spending by month.
+         	- Total billed vs. total paid amounts.
+          -	Overall and category-level ratio (paid/billed amount).
+          -	Overall spending by member and provider.
    
    - Apply Window Functions (RANK) to:
          -	Rank the top cost-driving CPT codes and ICD diagnosis codes. 
          -	Rank the top cost-driving providers, members.
 
+<img width="1558" height="878" alt="image" src="https://github.com/user-attachments/assets/7f7e1f8a-e5d9-4112-bcaf-f2b1d0d69415" />
 
 
 # Results 
 
-<img width="1498" height="866" alt="image" src="https://github.com/user-attachments/assets/1dfe18ca-41ad-4610-82b1-f4890a7d7fa3" />
 
 # Comments
 
@@ -54,21 +54,23 @@ Emergency comes second - 249k(19%) reflects unplanned visits. While individule E
 a meaningful portion of members seeking care reactively rather than through preventive or schedule channels.
 Finally, Outpatient lab and Pharmacy are minimal around (11%) these likely reflect either low utilization or strong cost controls.
 
+
+Lab (0.91) and Pharmacy (0.89) have the highest paid-to-billed ratios, suggesting they are well-reimbursed with relatively low adjustment or denial rates—likely due to standardized pricing and stronger cost control. In contrast, Outpatient (0.80), Emergency (0.77), and especially Inpatient (0.74) show progressively lower ratios, indicating higher write-offs denials which is common due to their severity and variability in care delivery.
+
+
 Among the top 10 billed procedures CPT codes 67890 ($242K) and 23456 ($203K) are the top two cost drivers, collectively accounting for 46% of total insurance payouts across the top 10 CPT codes. 
 Together, they represent $445K in reimbursements signaling that nearly half of high-volume procedure costs are concentrated in just two billing codes.
 
 Diagnosis codes I10 ($259K) and A12.3 ($152K) emerge as the leading cost drivers among the top 10 ICD codes, contributing a combined $411K — representing 43% of total insurance payouts. 
 Their disproportionate share of reimbursements signals that these two conditions alone are placing significant financial weight on the insurer's payout.
 
-The top 5 members account for a combined $181K of the insurance expenses. 
-Leading the group, Member 6 ($43K) and Member 32 ($40K) alone contribute $83K, or roughly 26% of the top 10 total payout.
+Leading the group, Member 6 ($43K) and Member 32 ($40K) alone contribute $83K, or roughly 46% of the top 5 total payout.
 This level of spend concentration is a strong indicator that a small subset of members is driving a disproportionate share of healthcare costs.
 
-the month over month analysis of total paids amount demonstrates significant volatility in healthcare expenditures with several periods of sharp increases and declines. 
-High variability across the 12-month period indicating an inconsistent cost pattern rather than a steady trend.
-xpenditures appear to be driven episodic high cost events rather than uniform claim activity.
+The average paid ratio accross the top 5 sits at 0.75. PRV00002 and PRV00001 dominate the healthcare expenses accounting for 56% of total paid amount. Any improvement in their denial rates particularly PRV00001 would have a positive impact on overall revenue recovery.
 
-# conclusion
 
-The disproportionate spend profile observed in CPT codes (67890, 23456) ICD codes (I10, A12.3) and patient account (6,32) suggests a need for deeper utilization review, payer specific reimbursement analyis and proactive audit for these key cost drivers for better cost containment.
+# Conclusion
+
+The disproportionate spend profile observed in CPT codes (67890;23456) ICD codes (I10;A12.3) and patient account (6;32) suggests a need for deeper utilization review, payer specific reimbursement analyis and proactive audit for these key cost drivers for better cost containment.
 

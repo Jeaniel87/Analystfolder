@@ -69,8 +69,17 @@ This level of spend concentration is a strong indicator that a small subset of m
 
 The average paid ratio accross the top 5 sits at 0.75. PRV00002 and PRV00001 dominate the healthcare expenses accounting for 56% of total paid amount. Any improvement in their denial rates particularly PRV00001 would have a positive impact on overall revenue recovery.
 
-
 # Conclusion
 
 The disproportionate spend profile observed in CPT codes (67890;23456) ICD codes (I10;A12.3) and patient account (6;32) suggests a need for deeper utilization review, payer specific reimbursement analyis and proactive audit for these key cost drivers for better cost containment.
+
+# Tools
+- SQL Server
+- Tableau
+
+# Autor 
+Junior Jean Daniel Bosso
+https://www.linkedin.com/in/juniorbosso
+
+
 
